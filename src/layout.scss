@@ -1,0 +1,24 @@
+@import "responsive.scss";
+
+.layout {
+  background: mediumpurple;
+  height: 100vh;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 20px;
+  color:inherit;
+
+  @include lg {
+    background: black;
+    color: white;
+  }
+
+  @include md {
+    background: orange;
+  }
+
+  @include sm {
+    background: red;
+  }
+
+}
